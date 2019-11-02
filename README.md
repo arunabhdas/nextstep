@@ -11,3 +11,47 @@ MySQL config guide can be found here :
 
 https://spring.io/guides/gs/accessing-data-mysql/
 
+
+## Goals 
+
+- Create a full CRUD application for a company called NextStep
+
+- NextStep is a company that wants to provide end-to-end-management of their service delivery
+
+- Company website 
+
+com.arunabhdas.nextstep
+
+## Environment
+
+- (LAMJA) - Linux-ApacheTomcat-MySQL-Java
+
+## Dev Environment
+
+- VSCode with Java support extensions
+
+## System Checks
+
+- Check if java is installed 
+
+==> java -version
+java version "1.8.0_231"
+Java(TM) SE Runtime Environment (build 1.8.0_231-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.231-b11, mixed mode)
+
+- Check if maven is installed
+
+==> mvn -v
+Apache Maven 3.6.2 (40f52333136460af0dc0d7232c0dc0bcf0d9e117; 2019-08-27T11:06:16-04:00)
+Maven home: /usr/local/Cellar/maven/3.6.2/libexec
+Java version: 1.8.0_231, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "10.15", arch: "x86_64", family: "mac"
+
+
+## Requirements 
+
+
+## Run in dev
+
+==> mvn spring-boot:run
