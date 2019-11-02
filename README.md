@@ -49,9 +49,24 @@ Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.15", arch: "x86_64", family: "mac"
 
 
-## Requirements 
+## Steps
+
+- Bootstrap SpringBoot application using VSCode
+
+- Update application.properties as follows :
+
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+spring.datasource.username=springuser
+spring.datasource.password=ThePassword
+debug=true
+
 
 
 ## Run in dev
+
+
 
 ==> mvn spring-boot:run
