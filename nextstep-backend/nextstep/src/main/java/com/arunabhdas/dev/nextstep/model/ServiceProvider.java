@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
@@ -52,6 +54,18 @@ public class ServiceProvider {
         this.createdDate = createdDate;
         this.updatedDate = updatedDate;
     }
+
+    @PrePersist
+    protected void onCreate() {
+        this.createdDate = new Date();
+
+    }
+
+    @PreUpdate
+    protected void onUpdate() {
+        this.updatedDate = new Date();
+    }
+
 
     public int getId() {
         return id;
