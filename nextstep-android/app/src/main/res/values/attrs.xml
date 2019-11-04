@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="ScrollLayout">
+        <attr name="labelerClass" format="string"/>
+        <attr name="labelerFormat" format="string"/>
+        <attr name="childWidth" format="dimension"/>
+        <attr name="childHeight" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color"/>
+        <attr name="pstsUnderlineColor" format="color"/>
+        <attr name="pstsDividerColor" format="color"/>
+        <attr name="pstsIndicatorHeight" format="dimension"/>
+        <attr name="pstsUnderlineHeight" format="dimension"/>
+        <attr name="pstsDividerPadding" format="dimension"/>
+        <attr name="pstsTabPaddingLeftRight" format="dimension"/>
+        <attr name="pstsScrollOffset" format="dimension"/>
+        <attr name="pstsTabBackground" format="reference"/>
+        <attr name="pstsShouldExpand" format="boolean"/>
+        <attr name="pstsTextAllCaps" format="boolean"/>
+    </declare-styleable>
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension"/>
+        <attr name="android:divider"/>
+        <attr name="android:requiresFadingEdge"/>
+        <attr name="android:fadingEdgeLength"/>
+    </declare-styleable>
+    <!-- Defines the custom XML attributes supported for LoopingImageView -->
+    <declare-styleable name="ParallaxView">
+        <attr name="speed" format="dimension"/>
+        <attr name="src" format="reference"/>
+        <attr name="sceneLength" format="integer"/>
+        <attr name="randomness" format="reference"/>
+        <attr name="initialState" format="enum">
+            <enum name="started" value="0"/>
+            <enum name="stopped" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- Covfefe -->
+    <declare-styleable name="CovfefeRotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+
+    <declare-styleable name="MifiEditTextField">
+        <attr name="mifi_cardCollapsedHeight" format="dimension"/>
+        <attr name="mifi_labelColor" format="color"/>
+        <attr name="mifi_image" format="reference"/>
+        <attr name="mifi_hasFocus" format="boolean"/>
+        <attr name="mifi_animationDuration" format="integer"/>
+        <attr name="mifi_openKeyboardOnFocus" format="boolean"/>
+        <attr name="mifi_backgroundColor" format="color"/>
+    </declare-styleable>
+
+    <!-- Horizontal -->
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="gradientStartColor" format="color" />
+        <attr name="gradientEndColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="cornerRadius" format="float" />
+    </declare-styleable>
+
+    <!-- CovfefeSegmentedTabs -->
+    <declare-styleable name="CovfefeSegmentedTabs">
+        <attr name="tabSelectedColor" format="color" />
+        <attr name="tabUnselectedColor" format="color" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleTextSize" format="integer|dimension" />
+        <attr name="titleFontPath" format="string" />
+        <attr name="borderColorUnselected" format="color"/>
+        <attr name="borderColorSelected" format="color"/>
+    </declare-styleable>
+
+    <!-- NetworkIndicator -->
+    <declare-styleable name="NetworkIndicator">
+        <attr name="smallCircleColor" format="color"/>
+        <attr name="largeCircleColor" format="color"/>
+        <attr name="outerCircleColor" format="color"/>
+    </declare-styleable>
+
+    <!-- CircleView -->
+    <declare-styleable name="CircleView">
+        <attr name="cv_color" format="color" />
+        <attr name="cv_radius" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CovfefeSpinner" tools:ignore="ResourceName">
+        <attr name="cs_arrow_tint" format="color"/>
+        <attr name="cs_hide_arrow" format="boolean"/>
+        <attr name="cs_background_color" format="color"/>
+        <attr name="cs_text_color" format="color"/>
+        <attr name="cs_dropdown_max_height" format="dimension"/>
+        <attr name="cs_dropdown_height" format="dimension">
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ActionSheets">
+        <attr name="actionSheetStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ActionSheet">
+        <attr name="actionSheetBackground" format="color|reference" />
+        <attr name="cancelButtonBackground" format="color|reference" />
+        <attr name="otherButtonTopBackground" format="color|reference" />
+        <attr name="otherButtonMiddleBackground" format="color|reference" />
+        <attr name="otherButtonBottomBackground" format="color|reference" />
+        <attr name="otherButtonSingleBackground" format="color|reference" />
+        <attr name="cancelButtonTextColor" format="color|reference" />
+        <attr name="otherButtonTextColor" format="color|reference" />
+        <attr name="actionSheetPadding" format="dimension|reference" />
+        <attr name="otherButtonSpacing" format="dimension|reference" />
+        <attr name="cancelButtonMarginTop" format="dimension|reference" />
+        <attr name="actionSheetTextSize" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>

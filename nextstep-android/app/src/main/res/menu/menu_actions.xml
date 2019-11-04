@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/actions_menusheet_1"
+        android:icon="@mipmap/ic_launcher"
+        />
+    <item
+        android:title="@string/actions_menusheet_2"
+        android:icon="@mipmap/ic_launcher"
+        />
+    <item
+        android:title="@string/actions_menusheet_3"
+        android:icon="@mipmap/ic_launcher"
+        />
+
+    <item
+        android:id="@+id/menu_subheader"
+        android:title=""
+        >
+        <menu>
+            <item
+                android:id="@+id/navigation_sub_item_1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/actions_menusheet_4"/>
+            <item
+                android:id="@+id/navigation_sub_item_2"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/actions_menusheet_5"/>
+        </menu>
+    </item>
+<!--    <item
+        android:id="@+id/reopen"
+        android:title="@string/reopen"
+        android:icon="@mipmap/ic_launcher"
+    />-->
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/label_logout"
+        android:icon="@mipmap/ic_launcher"
+        />
+
+</menu>

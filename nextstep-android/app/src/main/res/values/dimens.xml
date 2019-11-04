@@ -1,0 +1,107 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="title_text_size">16sp</dimen>
+
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="default_list_dimen">10dp</dimen>
+    <dimen name="margin_login_top">50dp</dimen>
+    <dimen name="margin_tutorial_top">15dp</dimen>
+
+    <!-- Cooper -->
+    <dimen name="mifi_margin_top">50dp</dimen>
+    <dimen name="mifi_margin_vertical">10dp</dimen>
+    <dimen name="mifi_margin_vertical_signup">20dp</dimen>
+    <dimen name="mifi_padding_listview">16dp</dimen>
+    <dimen name="mifi_panel_height">200dp</dimen>
+    <dimen name="mifi_login_horizontal_margin">30dp</dimen>
+
+    <dimen name="mifi_cardHeight_initial">4dp</dimen>
+    <dimen name="mifi_cardHeight_final">45dp</dimen>
+    <dimen name="mifi_corner_radius">4dp</dimen>
+
+    <dimen name="mifi_button_cta_height">40dp</dimen>
+    <dimen name="mifi_button_signup_flow_height">120dp</dimen>
+    <dimen name="mifi_button_cta_width">130dp</dimen>
+    <dimen name="mifi_button_next_width">260dp</dimen>
+    <dimen name="mifi_custom_button_radius">50dp</dimen>
+
+    <dimen name="mifi_home_indicators_spread">200dp</dimen>
+
+    <dimen name="mifi_signup_vertical_margin">15dp</dimen>
+
+
+    <dimen name="dimen_5">5dp</dimen>
+
+    <dimen name="cooper_widget_margin_bottom">35dp</dimen>
+    <dimen name="cooper_widget_height">30dp</dimen>
+
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+
+
+    <dimen name="cooper_horizontal_layout_margin">@dimen/margin_medium</dimen>
+    <dimen name="cooper_vertical_layout_margin">@dimen/margin_medium</dimen>
+
+    <!-- TextSize -->
+    <dimen name="smaller_text_size">10sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="default_text_size">14sp</dimen>
+    <dimen name="large_text_size">16sp</dimen>
+    <dimen name="larger_text_size">18sp</dimen>
+    <dimen name="huge_text_size">20sp</dimen>
+    <dimen name="extra_huge_text_size">24sp</dimen>
+
+    <!-- Misc -->
+    <dimen name="onboarding_button_divider_width">1dp</dimen>
+    <dimen name="button_corner_radius">5dp</dimen>
+
+    <!-- Application specific dimensions. -->
+    <dimen name="margin_text_horizontal">16dp</dimen>
+    <dimen name="margin_text_vertical">16dp</dimen>
+
+
+    <dimen name="form_vertical_height">45dp</dimen>
+
+    <dimen name="universal_custom_dialog_radius">10dp</dimen>
+    <dimen name="universal_dimenNegtive10">-10dp</dimen>
+    <dimen name="universal_dimen5">5dp</dimen>
+    <dimen name="universal_dimen10">10dp</dimen>
+    <dimen name="universal_dimen20">20dp</dimen>
+    <dimen name="universal_dimen30">30dp</dimen>
+    <dimen name="universal_dimen32">32dp</dimen>
+    <dimen name="universal_dimen40">40dp</dimen>
+    <dimen name="universal_dimen48">48dp</dimen>
+    <dimen name="universal_dimen50">50dp</dimen>
+    <dimen name="universal_dimen120">120dp</dimen>
+    <dimen name="universal_font40">40sp</dimen>
+    <dimen name="universal_font48">48sp</dimen>
+    <dimen name="universal_large_font">24sp</dimen>
+    <dimen name="universal_normal_font">18sp</dimen>
+    <dimen name="universal_small_font">16sp</dimen>
+    <dimen name="universal_smaller_font">14sp</dimen>
+
+    <dimen name="button_cta_height">40dp</dimen>
+    <dimen name="button_cta_width">130dp</dimen>
+    <dimen name="login_buttons_corner_radius">5dp</dimen>
+    <dimen name="login_button_icon_bg_width">45dp</dimen>
+    <dimen name="other_login_button_icon_bg_width">57dp</dimen>
+    <dimen name="order_detail_horizontal_margin">10dp</dimen>
+    <dimen name="setting_horizontal_divider_margin">5dp</dimen>
+
+
+</resources>

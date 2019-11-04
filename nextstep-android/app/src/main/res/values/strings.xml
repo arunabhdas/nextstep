@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Broccoli</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enable_location_services_prompt">Please enable location services</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="title_activity_scrolling">Broccoli</string>
+    <string name="title_activity_imagepicker">ImagePicker</string>
+    <string name="title_activity_post_office">Postman</string>
+    <string name="large_text">
+        Press the button for getting IMSI and IMEI
+    </string>
+    <string name="imei_one_large_text">IMEI 1</string>
+    <string name="imei_two_large_text">IMEI 2</string>
+
+    <string name="imsi_one_large_text">IMSI 1</string>
+    <string name="imsi_two_large_text">IMSI 2</string>
+    <string name="iccid_large_text">ICCID</string>
+    <string name="eid_large_text">EID</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_postman">Postman</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="title_section_1">Home</string>
+    <string name="title_section_2">Explore</string>
+    <string name="title_section_3">Discover</string>
+    <string name="title_section_4">Plan</string>
+    <string name="title_section_5">Shop</string>
+    <string name="title_section_6">Build</string>
+    <string name="title_section_7">Settings</string>
+    <string name="title_section_8">Profile</string>
+    <string name="title_section_9">About</string>
+
+    <!-- Tutorial -->
+    <string name="overlay_title_1">Enable AccessNow Data Services!</string>
+    <string name="overlay_desc_1">Turn ON/OFF our Roaming Data Service!  The APP is free to use when the service is ON.</string>
+    <string name="overlay_title_2">Buy Data Packages!</string>
+    <string name="overlay_desc_2">Save money on roaming by buying a data package for your next trip!</string>
+    <string name="overlay_title_3">Manage Your Packages!</string>
+    <string name="overlay_desc_3">View and Enable Data Packages you have purchased.</string>
+    <string name="tutorial_no_sim_required">Goodbye Physical SIM Cards!</string>
+    <string name="tutorial_we_deliver">When the service is enabled, the APP inserts into your phone a \"Virtual\" SIM Card</string>
+    <string name="action_explore_the_app">Continue</string>
+
+    <string name="tutorial_desc_1_explore">Exploration is fun and easy.</string>
+    <string name="tutorial_desc_2_plan">Find the pro that\'s right for you.</string>
+    <string name="tutorial_desc_3_shop">Making it easy for you manage your project.</string>
+    <string name="tutorial_desc_4_build">Shopping is a blast.</string>
+    <string name="tutorial_desc_5_manage">Track your costs and expenses.</string>
+
+
+    <string name="tutorial_title">Discover</string>
+    <string name="tutorial_subtitle">Continue</string>
+
+    <string name="tutorial_title_1">Explore</string>
+    <string name="tutorial_title_2">Plan</string>
+    <string name="tutorial_title_3">Shop</string>
+    <string name="tutorial_title_4">Build</string>
+    <string name="tutorial_title_5">Manage</string>
+
+    <string name="tutorial_subtitle_1">Explore scope of work and request pros.</string>
+    <string name="tutorial_subtitle_2">Select your contractor and plan your project.</string>
+    <string name="tutorial_subtitle_3">Start building out your project and reach your milestones.</string>
+    <string name="tutorial_subtitle_4">Shop for great products, discover designs and vendors.</string>
+    <string name="tutorial_subtitle_5">Manage your project from end to end with detailed updates.</string>
+
+    <string name="desc">No Image</string>
+
+    <string name="center_title_mifi_home_active_package">Broadcaster</string>
+    <string name="center_subtitle_mifi_home_add_credit">Send Broadcast</string>
+    <string name="center_subtitle_mifi_home_active_package">Tap button below to send broadcast</string>
+    <string name="top_title_mifi_home_active_package">Current Active</string>
+    <string name="top_subtitle_mifi_home_active_package">SIM Card Profile</string>
+    <string name="center_button_label">SIM1</string>
+
+    <string name="action_show">Show</string>
+
+    <string name="share">Share</string>
+    <string name="password">Enter password</string>
+    <string name="list_button">List</string>
+    <string name="grid_button">Grid</string>
+    <string name="intent_picker">Intent Picker</string>
+    <string name="menu_resource">Inflating a Menu</string>
+
+    <!-- Actions -->
+    <string name="actions_menusheet_1">Create New</string>
+    <string name="actions_menusheet_2">View All</string>
+    <string name="actions_menusheet_3">View History</string>
+    <string name="actions_menusheet_4">Upload photo</string>
+    <string name="actions_menusheet_5">View Gallery</string>
+    <string name="label_logout">Logout</string>
+
+    <!-- Fragment0 -->
+    <string name="actions_fragment_0_title_1">Broccoli</string>
+    <string name="actions_fragment_0_title_2">Check Broccoli Stats</string>
+    <string name="actions_fragment_0_title_2_tooltip">Refresh Stats</string>
+    <string name="actions_fragment_0_title_3">Broccoli Account Balance</string>
+    <string name="actions_fragment_0_title_3_tooltip">Where would you like it?</string>
+    <string name="actions_fragment_0_title_4">Please topup your Broccoli token balance</string>
+
+    <string name="actions_fragment_0_title_4_tooltip">When would you like this done?</string>
+    <string name="actions_fragment_0_title_5">Current Balance : 40 tokens</string>
+    <string name="actions_fragment_0_title_6">Topup Account Balance</string>
+    <string name="actions_fragment_0_title_7">Buy Broccoli Tokens</string>
+
+    <!-- Fragment1 -->
+    <string name="actions_fragment_1_title_0">Create Request</string>
+    <string name="actions_fragment_1_title_1">Who</string>
+    <string name="actions_fragment_1_title_2">What</string>
+    <string name="actions_fragment_1_title_2_tooltip">What would you like?</string>
+    <string name="actions_fragment_1_title_3">Where</string>
+    <string name="actions_fragment_1_title_3_tooltip">Where would you like it?</string>
+    <string name="actions_fragment_1_title_4">When</string>
+    <string name="actions_fragment_1_title_4_tooltip">When would you like this done?</string>
+    <string name="actions_fragment_1_title_5">Attach Image</string>
+    <string name="actions_fragment_1_title_6">Send</string>
+
+    <string name="actions_fragment_1_title_7">Reset</string>
+
+    <!-- Fragment2 -->
+
+
+    <!-- Actions Other-->
+    <string name="share_some_text">Share some text!</string>
+    <string name="image_picker">Image picker</string>
+    <string name="show">Show</string>
+    <string name="reopen">Reopen as other type</string>
+
+    <string name="bottomsheet_fragment">BottomSheet Fragment</string>
+
+    <string name="label_menu_actions">Actions...</string>
+    <string name="label_something_went_wrong">Something went wrong.</string>
+
+    <!-- Auth -->
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="action_register">Register</string>
+    <string name="account_logging_in">Login into your account</string>
+    <string name="remember_password">Remember password</string>
+    <string name="login_with_flo">Flo</string>
+    <string name="prompt_email">Enter username</string>
+    <string name="prompt_password">Enter password</string>
+    <string name="reset_password">Forgot Password?</string>
+    <string name="signup_for_flo">Sign-Up for FloApp</string>
+    <string name="or_login_with">OR LOGIN WITH</string>
+    <string name="button_label_login_with_flo">Login with Flo</string>
+
+    <string name="create_account">Create a new account</string>
+    <string name="register_by">Register by</string>
+    <string name="reg_via_phone">Phone</string>
+    <string name="email">E-mail</string>
+    <string name="register_email_prompt">E-mail</string>
+
+    <!-- Registration -->
+    <string name="register_firstname_prompt">First Name</string>
+    <string name="register_lastname_prompt">Last Name</string>
+
+    <string name="phone_number_prompt">Phone Number</string>
+    <string name="phone_number_warning">Phone Number Only</string>
+
+    <string name="error_numberOfChar_password">Password must be at least 6 characters.</string>
+    <string name="prompt_password_retype">Retype Password</string>
+    <string name="accept_terms">I have read and agree with the user service and privacy terms.</string>
+    <string name="button_label_create_account">Create account</string>
+    <string name="label_select_profession">Select Profession</string>
+
+    <!-- Google Maps Api Key -->
+    <string name="google_maps_api_key">AIzaSyBsEL4W73CCNtkmsEfZwjZ4uweqbsdgGJE</string>
+</resources>

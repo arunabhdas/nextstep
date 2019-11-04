@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arunabhdas.mobile.broccoli.OnboardingActivity"
+    >
+
+    <!-- <ImageView
+        android:id="@+id/virtual_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/default_list_dimen"
+        android:paddingBottom="@dimen/default_list_dimen"
+        />-->
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/onboarding_pager"
+        android:background="@drawable/gradient_side_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout
+        android:id="@+id/onboarding_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+
+<!--        <Button
+            android:id="@+id/onboarding_explore_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/onboarding_button_divider"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:fontFamily="@font/source_han_sans_cn_bold"
+            android:textSize="@dimen/huge_text_size"
+            android:textAllCaps="false"
+            android:text="@string/action_explore_the_app"/>-->
+
+        <Button
+            android:id="@+id/onboarding_register_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/onboarding_button_divider"
+            android:fontFamily="@font/source_han_sans_cn_bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textSize="@dimen/huge_text_size"
+            android:textAllCaps="false"
+            android:text="@string/action_register"
+            />
+
+        <View
+            android:id="@+id/onboarding_button_divider"
+            android:layout_width="@dimen/onboarding_button_divider_width"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/onboarding_login_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/onboarding_button_divider"
+            android:fontFamily="@font/source_han_sans_cn_bold"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:textSize="@dimen/huge_text_size"
+            android:textAllCaps="false"
+            android:text="@string/action_sign_in"/>
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/onboarding_page_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:layout_margin="@dimen/margin_login_top"
+        android:layout_gravity="center"
+        tools:src="@drawable/onboarding_dots_flo"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:gravity="center"/>ss
+
+</RelativeLayout>

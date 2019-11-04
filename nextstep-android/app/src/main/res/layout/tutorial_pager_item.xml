@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_onboarding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tutorial_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/margin_tutorial_top"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:fontFamily="@font/source_han_sans_cn_light"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/tutorial_title"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:text="Discover" />
+
+    <TextView
+        android:id="@+id/tutorial_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tutorial_title"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/margin_tutorial_top"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:fontFamily="@font/source_han_sans_cn_light"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/tutorial_subtitle"
+        android:textColor="@color/white"
+        android:textSize="@dimen/extra_huge_text_size"
+        />
+
+    <ImageView
+        android:id="@+id/tutorial_imageView"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/tutorial_subtitle"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_login_top"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tutorial_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tutorial_imageView"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/margin_login_top"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:fontFamily="@font/source_han_sans_cn_light"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/extra_huge_text_size" />
+
+</RelativeLayout>
