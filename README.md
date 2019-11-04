@@ -71,3 +71,15 @@ debug=true
 
 
 ==> mvn spring-boot:run
+
+
+
+# Links 
+
+https://medium.com/better-programming/building-a-spring-boot-rest-api-a-php-developers-view-part-i-6add2e794646
+
+
+https://www.youtube.com/watch?v=KiYIQYkyr8Y
+
+https://www.youtube.com/watch?v=4-XE3YljDMk
+
