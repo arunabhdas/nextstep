@@ -68,7 +68,9 @@ debug=true
 
 ## Run in dev
 
+==> cd nextstep-backend 
 
+==> cd nextstep
 
 ==> mvn spring-boot:run
 
